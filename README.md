@@ -50,16 +50,16 @@ NEXT_PUBLIC_BACKEND_URL=http://localhost:5000
 
 
 ## Primsa Setup
-# Navigate to the backend
+-Navigate to the backend
 cd backend
 
-# Initialize Prisma (already done if schema.prisma exists)
+-Initialize Prisma (already done if schema.prisma exists)
 npx prisma init
 
-# Generate Prisma client
+-Generate Prisma client
 npx prisma generate
 
-# Run migrations to create tables
+-Run migrations to create tables
 npx prisma migrate dev --name init
 
 
@@ -70,4 +70,4 @@ npm run dev
 
 # Frontend
 cd frontend
-npm run dev dev
+npm run dev
